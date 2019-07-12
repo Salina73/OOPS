@@ -1,0 +1,26 @@
+{
+   "ICIC Bank": 
+   [ {
+         "Name":"ICIC Bank",
+         "No of Shares": 70,
+         "Price of share": 35     }  ],
+         
+	"AXIS Bank": 
+	[ {
+         "Name":"AXIS Bank",
+         "No of Shares": 50,
+         "Price of share": 40 } ],
+	
+	"HDFC Bank": 
+	[ {
+         "Name":"HDFC Bank",
+         "No of Shares": 70,
+         "Price of share": 20    } ],
+         
+     "Reliance ": 
+	[ {
+         "Name":"Reliance ",
+         "No of Shares": 30,
+         "Price of share": 200    } ]  
+         
+}
