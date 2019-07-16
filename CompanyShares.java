@@ -42,14 +42,23 @@ public class CompanyShares
 	
 	private static CompanyShares remove(CompanyShares list, String key) 
 	{
-		Node currentNode=list.head;
+		Node currentNode=list.head,prev=null;
 		 if (currentNode != null && key.compareTo(currentNode.data)==0)
 		 { 
 	            list.head = currentNode.next; 
-	            System.out.println(key + " is found hence it is deleted........"); 
+	           
 	            return list; 
 	      }
-	
+		 while (currentNode != null && key.compareTo(currentNode.data)!=0) 
+		 { 	
+	            prev = currentNode; 
+	            currentNode = currentNode.next; 
+	      } 
+		  if (currentNode != null)
+		  {   
+	            prev.next = currentNode.next; 
+	            
+	      } 
 		return list;	
 	}
 	
